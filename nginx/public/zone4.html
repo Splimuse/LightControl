@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Зона4</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="name-org">
+                ASIAN
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <li><a href="main.html">Главная</a></li>
+                    <li><a href="zone1.html">Зона1</a></li>
+                    <li><a href="zone2.html">Зона2</a></li>
+                    <li><a href="zone3.html">Зона3</a></li>
+                    <li><a href="zone4.html">Зона4</a></li>
+                    <li><a href="winter.html">Обогрев</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="light-buttons">
+            <div class="element">
+                <div class="element_button">
+                    <button class="btn" id="/devices/wb-mr6c_237/controls/K5" value="0">РЕЛЕ 5</button>
+                </div>
+                <div class="body_element_brightnes">
+                    <div class="body_element_range">
+                        <div class="element_range">
+                            <input type="range" class="range" min="1" max="100" step="1" value="1"
+                                oninput="element_range_value.innerText=this.value">
+                        </div>
+                        <div class="element_range_value" id="element_range_value">
+
+                            1
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="element1">
+                <div class="element_button">
+                    <button class="btn" id="/devices/wb-mr6c_237/controls/K6" value="0">РЕЛЕ 6</button>
+                </div>
+                <div class="body_element_brightnes">
+                    <div class="body_element_range">
+                        <div class="element_range">
+                            <input type="range" class="range" min="1" max="100" step="1" value="1"
+                                oninput="element_range_value1.innerText=this.value">
+                        </div>
+                        <div class="element_range_value" id="element_range_value1">
+
+                            1
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="map">
+            map
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
